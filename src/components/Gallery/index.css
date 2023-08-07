@@ -1,0 +1,29 @@
+/* Write your code here. */
+.container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 40px;
+  max-width: 1000px;
+}
+.image {
+  border-radius: 15px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 28px;
+}
+p {
+  color: #64748b;
+  font-size: 20px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
